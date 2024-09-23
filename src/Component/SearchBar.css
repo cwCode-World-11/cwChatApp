@@ -1,0 +1,23 @@
+.searchBarMainDiv{
+    background-color: tomato;
+    display: flex;
+    justify-items:center;
+    align-items:center;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+.searchBarMainDiv>input{
+    background-color: var(--paletteColor5);
+    outline: none;
+    border: none;
+    width: 80%;
+    margin: 0px 5%;
+    border-radius: 50px;
+}
+.searchBarMainDiv>.searchIcon{
+    background-color: var(--paletteColor1);
+    color: var(--paletteColor5);
+    text-align: center;
+    padding: 7px 10px;
+    border-radius: 50%;
+}

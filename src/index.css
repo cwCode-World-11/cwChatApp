@@ -1,0 +1,53 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* Custom Variables */
+  --paletteColor1:#315098;
+  --paletteColor2:#8CA8BE;
+  --paletteColor3:#AFBDB0;
+  --paletteColor4:#E4C0BE;
+  --paletteColor5:#FBD0E0;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  font-weight: 500; 
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  /* place-items: center; */
+  /* min-width: 320px;
+  min-height: 100vh; */
+  background-color: var(--paletteColor3);
+  overflow: auto;
+}
+
+
+
+::-webkit-scrollbar{
+  width: 5px;
+  background-color: var(--paletteColor3);
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: var(--paletteColor5);
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-track{
+  background-color: var(--paletteColor2);
+}

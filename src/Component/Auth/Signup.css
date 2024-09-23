@@ -1,0 +1,72 @@
+.Signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--paletteColor2);
+  overflow: auto;
+}
+
+.Signup-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  max-width: 400px;
+  height: fit-content;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-family: Inter,Arial, sans-serif;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: gray;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color:white;
+  color: gray;
+  font-weight: bold;
+}
+
+.Signup-button {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--paletteColor1);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: Inter,Arial, sans-serif;
+}
+
+.Signup-button:hover {
+  background-color: #0056b3;
+}
+
+.descLink{
+  color: gray;
+  text-align: center;
+}

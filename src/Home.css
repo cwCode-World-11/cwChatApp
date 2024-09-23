@@ -1,0 +1,16 @@
+.mainDiv{
+    width: 100vw;
+    height: 92vh;/*AppBar component height 8vh*/
+    display: flex;
+}
+
+.leftSec{
+    width: 30%;
+    height: 100%;
+    background-color: brown;
+}
+.rightSec{
+    max-width: 70%;
+    background-color: teal;
+    /* height: 100%; */
+}
